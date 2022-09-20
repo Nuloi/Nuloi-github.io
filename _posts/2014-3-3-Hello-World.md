@@ -1,10 +1,10 @@
 ---
 layout: post
-title: You're up and running!
+title: fust post
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+첫 포스트입니다 주로 블로그는 게임개발과 백준 문제풀이를 올릴 예정입니다.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Here's a step=by=step guide to becoming a fossil
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+<h2>STEP ONE: DIE

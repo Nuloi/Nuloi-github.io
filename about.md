@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Aiming for game developers
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Unity preferred
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ekgus8056@gmail.com](mailto:ekgus8056@gmail.com)
