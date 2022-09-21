@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background: $black;
+    background: $white;
     font: 18px/1.4 $helvetica;
     color: $darkGray;
 }
@@ -133,24 +133,19 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-    color: $white;
+    color: $black;
     background: $lightGray;
 }
 
 ::selection {
-    color: $white;
+    color: $black;
     background: $lightGray;
 }
 
 // Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
+@@ -142,
+148+154,
+141 @@ img {
     clear: both;
 }
 
