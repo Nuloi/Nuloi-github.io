@@ -18,9 +18,15 @@ html {
 }
 
 body {
+<<<<<<< HEAD
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+=======
+    background: $black;
+    font: 18px/1.4 $helvetica;
+    color: $darkGray;
+>>>>>>> parent of ac8174b (backround)
 }
 
 .container {
@@ -122,12 +128,22 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
+<<<<<<< HEAD
   color: $black;
   background: $lightGray;
+=======
+    color: $white;
+    background: $lightGray;
+>>>>>>> parent of ac8174b (backround)
 }
 ::selection {
+<<<<<<< HEAD
   color: $black;
   background: $lightGray;
+=======
+    color: $white;
+    background: $lightGray;
+>>>>>>> parent of ac8174b (backround)
 }
 
 // Nicolas Gallagher's micro clearfix hack
