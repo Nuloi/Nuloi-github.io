@@ -4,11 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Aiming for game developers
+Coding Monkey Escape
 
 ### More Information
 
-Unity preferred
 
 ### Contact me
 
