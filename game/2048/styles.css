@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.grid {
+    width: 220px;
+    height: 220px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 5px;
+    background-color: #bbada0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #776e65;
+    transition: transform 0.3s;
+}
+
+.tile[data-val='2'] {
+    background-color: #eee4da;
+}
+
+.tile[data-val='4'] {
+    background-color: #ede0c8;
+}
+
+.tile[data-val='8'] {
+    background-color: #f2b179;
+    color: #fff;
+}
+
+.tile[data-val='16'] {
+    background-color: #f59563;
+    color: #fff;
+}
+
+.tile[data-val='32'] {
+    background-color: #f67c5f;
+    color: #fff;
+}
+
+.tile[data-val='64'] {
+    background-color: #f65e3b;
+    color: #fff;
+}
+
+.tile[data-val='128'],
+.tile[data-val='256'],
+.tile[data-val='512'],
+.tile[data-val='1024'],
+.tile[data-val='2048'] {
+    background-color: #edcf72;
+    color: #fff;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#restart {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #8f7a66;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+#restart:hover {
+    background-color: #9e8b78;
+}

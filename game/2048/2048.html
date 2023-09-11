@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CSS 파일 불러오기 -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>2048 게임</h1>
+        <p>점수: <span id="score">0</span></p>
+        <button id="restart">다시 시작</button>
+        <div class="grid">
+        </div>
+
+        <section class="instructions">
+            <h2>조작 방법</h2>
+            <ul>
+                <li><strong>↑</strong>: 위로 블록 이동</li>
+                <li><strong>↓</strong>: 아래로 블록 이동</li>
+                <li><strong>←</strong>: 왼쪽으로 블록 이동</li>
+                <li><strong>→</strong>: 오른쪽으로 블록 이동</li>
+            </ul>
+            <p>블록을 움직여 같은 숫자의 블록 두 개를 합쳐 2048을 만들어보세요!</p>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
