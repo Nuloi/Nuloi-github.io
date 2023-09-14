@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Flowchart Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <canvas id="flowchartCanvas" width="800" height="600"></canvas>
+    <input type="text" id="nodeText" placeholder="동그라미 텍스트">
+    <input type="color" id="nodeColor" value="#FF0000">
+    <button onclick="addNode()">동그라미 생성</button>
+    <button onclick="addConnection()">이전 동그라미와 연결</button>
+    <button onclick="generateURL()">URL 생성하기</button>
+    <div id="generatedURL"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
